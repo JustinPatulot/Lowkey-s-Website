@@ -1,0 +1,49 @@
+body{
+    margin:auto;
+    background-image: url('./../image/langit.jpg');
+    background-size: 1540px  1100px;
+    background-attachment: fixed;	
+
+}
+
+mark{
+    background-color:transparent;
+    color: skyblue;
+    text-shadow: 5px 5px transparent;
+
+}
+#header {
+    padding: 1px 2px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+p {
+    text-indent: 100px;
+  }
+
+#center{
+    float: top;
+    margin: auto;
+    background: transparent;
+    width: 50%;
+    text-align: center;
+    float: Center;
+    height: 50px;
+}
+#center2{
+     
+    float: top;
+    margin: auto;
+    background: transparent;
+    width: 45%;
+    text-align: center;
+    float: Center;
+    height: 2500px;;
+}
+#footer{
+    width: 100%;
+    float: bottom;
+    position: relative;
+    text-align: center;
+}

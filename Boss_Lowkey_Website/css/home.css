@@ -1,0 +1,113 @@
+body{
+    margin:auto;
+    background-image: url('./../image/langit.jpg');
+    background-size: 1540px  1100px;
+    background-attachment: fixed;	
+
+}
+mark{
+    background-color:transparent;
+     color: skyblue;
+    text-shadow: 5px 5px transparent;
+}
+#header {
+    padding: 1px 2px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 75px;
+}
+#wrapper{
+    background: transparent;
+    position:sticky	;
+    top: 1;
+    
+}
+
+#center{
+    float: top;
+    margin: auto;
+    background: transparent;
+    width: 50%;
+    text-align: center;
+    float: Center;
+    height: 40px;
+}
+#center2{
+    float: top;
+    margin: auto;
+    background-image:url('./../gif/gfZESk.gif');
+    background-size: 100% 100%;
+    
+    width: 640px;
+    text-align: center;
+    height: 335px;
+    border: solid;
+}
+
+.calendar {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;background: transparent;
+}
+
+.month button {
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    background: transparent;
+}
+
+.weekdays div {
+    width: 14.28%;
+    text-align: center;
+    color:white;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.days div {
+    width: 14.28%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.days div:hover {
+    background-color: #f2f2f2;
+}
+
+.days .today {
+    background-color: #ff5722;
+    color: white;
+}
+
+#footer{
+    width: 100%;
+    height: 10px;
+    float: bottom;
+    position: static;
+    text-align: center;
+}
