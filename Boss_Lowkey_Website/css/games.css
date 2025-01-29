@@ -35,10 +35,11 @@ mark{
     background: transparent;
     width: 45%;
     float: Center;
-    height: 2500px;
+    height: 650px;
     border: solid;
     border-color: black;
     color: red;
+    overflow-x: scroll;
 }
 #footer{
     width: 100%;
