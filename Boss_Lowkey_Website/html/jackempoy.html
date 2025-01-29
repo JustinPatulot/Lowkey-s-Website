@@ -35,36 +35,39 @@
 					<th><a href="About.html"><b><h4><font color="black">About myself </font></b></a></h1></th>
 					<th><a href="Games.html"><h4><b><mark>Games</mark> </b></a></h1></th>
 					<th><button onclick="goBack()">Go Back</button></th>
-                    <th><a href="jackempoy.html"><font color="Black">&#x21BB Refresh</a></th>
+                    <th></th>
                         <th><a href="Games.html"><font color="Black ">&#8592;back</a></th>
                 </tr>
 			</table>
 		</center>
-		</div>
-    <div class="container">
-        <h1>Rock-Paper-Scissors</h1>
-        <div class="choices">
-            <button class="choice" onclick="playGame('rock')"><font color="Black">Rock</font> </button>
-            <button class="choice" onclick="playGame('paper')"><font color="Black">Paper</font></button>
-            <button class="choice" onclick="playGame('scissors')"><font color="Black">Scissors</font></button>
-        </div>
-        <div id="result"></div>
-    </div>
-    <div id="footer">
-      <h4>
-            <p>
-                <img src="./../image/bl.png"height=54px width=54px>
-                <font color="Black">
-                    Boss Lowkey Official Page/Terms Of Use// &#169; Boss Lowkey 2025
-                </font>
-            </p>
-        </h4>
-    </div>
-
-
-
-
-
+        <center>
+		    </div>
+                <div class="container">
+                    <h1>Rock Paper Scissors</h1>
+                    <div class="scoreboard">
+                    <div id="player-score" class="score">Player: 0</div>
+                    <div id="computer-score" class="score">Computer: 0</div>
+                </div>
+                <div class="choices">
+                    <button id="rock">Rock</button>
+                    <button id="paper">Paper</button>
+                    <button id="scissors">Scissors</button></br>
+                </div>
+                <a href="jackempoy.html"><font color="Black">&#x21BB Restart</a>
+                <div id="result" class="result"></div>
+                </div>
+            </div>
+        </center>
+            <div id="footer">
+                <h4>
+                    <p>
+                        <img src="./../image/bl.png"height=54px width=54px>
+                            <font color="Black">
+                                Boss Lowkey Official Page/Terms Of Use// &#169; Boss Lowkey 2025
+                            </font>
+                    </p>
+                </h4>
+            </div>
     <script src="./../javascript/jackempoy.js"></script>
     <script>
         function goBack() {
