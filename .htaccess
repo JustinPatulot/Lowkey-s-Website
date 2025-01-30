@@ -2,4 +2,4 @@
 RewriteEngine On
 
 # Redirect to homepage (if the URL is just the domain or trailing slash)
-RewriteRule ^$ /Home.html [L]  # Change index.html to your homepage filename (e.g., index.php)
+RewriteRule ^$ Boss_Lowkey_Website/html/Home.html [L]  # Change index.html to your homepage filename (e.g., index.php)
